@@ -1,6 +1,7 @@
 package com.example.navgraphviewmodelproject.navGraphViewModels
 
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import androidx.core.widget.doAfterTextChanged
 import androidx.fragment.app.Fragment
@@ -32,4 +33,6 @@ class NavGraphViewModelsFragment : Fragment(R.layout.fragment_nav_graph_view_mod
             binding.tvVm.text = it
         })
     }
+
+
 }

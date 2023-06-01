@@ -1,6 +1,7 @@
 package com.example.navgraphviewmodelproject.navGraphViewModels
 
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -24,5 +25,6 @@ class NavGraphViewModelsTwoFragment : Fragment(R.layout.fragment_nav_graph_view_
             binding.tvVm.text = it
         })
     }
+
 
 }
