@@ -9,14 +9,22 @@
     tools:context=".viewModels.ViewModelsFragment">
 
     <TextView
-        android:text="Page 2"
-        android:textSize="40dp"
+        android:text="NavGraph Page 2"
+        android:textSize="32dp"
         android:layout_marginBottom="40dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/tv_vm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/tv_activity_vm"
+        android:hint="from activityViewModel"
+        android:textColorHint="@android:color/holo_blue_dark"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 

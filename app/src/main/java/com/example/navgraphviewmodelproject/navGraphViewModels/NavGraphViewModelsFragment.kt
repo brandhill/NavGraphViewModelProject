@@ -29,9 +29,9 @@ class NavGraphViewModelsFragment : Fragment(R.layout.fragment_nav_graph_view_mod
             navGraphViewModel.sampleText.postValue(it.toString())
         }
 
-        navGraphViewModel.sampleText.observe(viewLifecycleOwner, {
+        navGraphViewModel.sampleText.observe(viewLifecycleOwner) {
             binding.tvVm.text = it
-        })
+        }
     }
 
 

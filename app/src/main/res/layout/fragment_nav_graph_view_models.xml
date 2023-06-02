@@ -9,7 +9,7 @@
     tools:context=".viewModels.ViewModelsFragment">
 
     <TextView
-        android:text="Page 1"
+        android:text="NavGraph Page 1"
         android:textSize="40dp"
         android:layout_marginBottom="40dp"
         android:layout_width="wrap_content"
